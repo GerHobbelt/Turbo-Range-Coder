@@ -275,7 +275,7 @@ size_t befgen(FILE *fi, unsigned char *out, size_t outsize, int fmt, int isize, 
       }
     }
   }
-  end:;if(verbose >= 5) printf(" n=%lld \n", op-out);
+  end:;if(verbose >= 5) printf(" n=%zu \n", op-out);
   if(ovf) { unsigned l = (op-out)/abs(osize); 
     printf("Number of items truncated=%u of %u = %.2f%%\n", ovf, l, (double)ovf*100.0/(double)l ); 
   }

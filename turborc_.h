@@ -22,7 +22,6 @@
     - email    : powturbo [_AT_] gmail [_DOT_] com
 **/
 // TurboRC: Range Coder 
-#include <stdint.h>
 #include "include_/conf.h"
 //----------------------------- Logging/statistics macros (ex. counting number of 0/1 bits ) --------------------------
   #ifdef RC_LOG 

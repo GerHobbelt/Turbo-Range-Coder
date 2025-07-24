@@ -21,6 +21,7 @@
     - twitter  : https://twitter.com/powturbo
     - email    : powturbo [_AT_] gmail [_DOT_] com
 **/
+
 // Bit entropy coder 
 // Based on: "A quick explaination of the M99 compression algorithm" http://www.michael-maniscalco.com/blog.htm
 //           https://github.com/michaelmaniscalco/m99
