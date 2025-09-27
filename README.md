@@ -51,8 +51,8 @@
         ./turborc -e0 file -Fcf        " text file with multiple floating-point entries (separated by non-digits characters ex. 456.56,32.1,54)
         ./turborc -e0 file -Fru -Ob    " convert raw 32 bits input to bytes before processing possibly truncating large values
         ./turborc -e0 file -Ft -K3 -Ou " convert column 3 of a csv text file to 32 bits integers
-        ./turborc -e0 file -pss -r47   " benchmark all basic functions using the dual speed predictor with paramters 4 and 7
-        ./turborc -e0 file -psf -r1    " benchmark all basic functions using the fsm predictor with the paramter file FSM1.txt
+        ./turborc -e0 file -pss -r47   " benchmark all basic functions using the dual speed predictor with parameters 4 and 7
+        ./turborc -e0 file -psf -r1    " benchmark all basic functions using the fsm predictor with the parameter file FSM1.txt
 
 ## Benchmark
    see also [Entropy Coder Benchmark](https://sites.google.com/site/powturbo/entropy-coder) 
